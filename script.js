@@ -37,7 +37,7 @@ function postWeather(data)
  if(data.cod !== "200")
  {
      console.log(displayOuter,displayInner)
-    displayInner.innerHTML =`<p class="d-flex justify-content-center ">The city you eneterd is not found, please try again.</h2>`;
+    displayInner.innerHTML =`<p class="d-flex justify-content-center ">The city you entered is not found, please try again.</h2>`;
  }
  else{
     lat=data.city.coord.lat
